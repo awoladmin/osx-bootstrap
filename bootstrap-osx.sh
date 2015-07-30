@@ -7,4 +7,4 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install ansible
 
 # run our playbooks
-ansible-playbook -i hosts main.yml
+ansible-playbook -i hosts main.yml && ansible-playbook -i hosts main.yml

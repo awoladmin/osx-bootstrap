@@ -41,5 +41,7 @@
   - { name: terraform }
   - { name: vault }
   - { name: vim }
+  - { name: go,
+      install_options: --with-cc-common}
   - { name: wget,
       install_options: enable-iri }
