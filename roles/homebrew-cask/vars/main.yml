@@ -2,10 +2,10 @@
  homebrew_cask_packages:
   #- alfred
   - appcleaner
-  - caffeine
+  #- caffeine
   #- bettertouchtool
   #- dropbox
-  - google-japanese-ime
+  #- google-japanese-ime
   #- evernote
   #- google-chrome
   #- firefox
@@ -15,7 +15,7 @@
   #- iterm2
   - virtualbox
   - vagrant
-  - sourcetree
+  #- sourcetree
   #- dash
   #- xquartz
   #- sequel-pro

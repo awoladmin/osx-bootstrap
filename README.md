@@ -1,17 +1,20 @@
-# Workstation Bootstraps
+# OSX Dev/Ops Workstation Bootstrap
 
 ## Usage
 
 ```
-git clone ssh://git@stash-na.gu3.jp:7999/shared/workstation-bootstraps.git
-cd workstation-bootstrap
-./bootstrap-osx.sh
+git clone https://github.com/keithdadkins/osx-bootstrap.git
+cd workstation-bootstrap && ./bootstrap-osx.sh
 ```
 
-## Note
-
-The repo only bootstraps os-x and is done from the Master branch. Ideally, each workstation type/role should be branched and git tagged according to use. For example, it would be nice to do something like: 
-
+The terminal based cli apps that will be installed are in the following folder:
 ```
-TODO:git clone --branch osx-devops ssh://git@stash-na.gu3.jp:7999/shared/workstation-bootstraps.git
+./roles/homebrew/vars/main.yml
 ```
+
+GUI apps (installed to Applications) are in this file.
+```
+./roles/homebrew-cask/vars/main.yml
+```
+
+Fee free to add/edit/update these variables and run the bootstrap script again (it's immutable).
