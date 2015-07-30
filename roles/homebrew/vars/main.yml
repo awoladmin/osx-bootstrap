@@ -1,0 +1,45 @@
+---
+ homebrew_taps:
+   - caskroom/cask
+   - caskroom/versions
+   - homebrew/versions
+   - homebrew/binary
+   # - homebrew/php
+
+ homebrew_packages:
+  - { name: awscli }
+  - { name: brew-cask }
+  - { name: docker }
+  - { name: docker-compose }
+  - { name: docker-machine }
+  - { name: fleetctl }
+  - { name: git-flow }
+  - { name: nkf }
+  - { name: tmux }
+  - { name: watch }
+  - { name: tree }
+  - { name: pstree }
+  - { name: git }
+  - { name: git-flow }
+  - { name: httpie }
+  - { name: openssl }
+  - { name: pidof }
+  - { name: pwgen }
+  - { name: readline }
+  - { name: resty }
+  - { name: s3cmd }
+  - { name: slowhttptest }
+  - { name: spark }
+  - { name: ssh-copy-id }
+  - { name: iperf }
+  - { name: ipcalc }
+  - { name: jq }
+  - { name: coreutils }
+  - { name: moreutils }
+  - { name: nmap }
+  - { name: packer }
+  - { name: terraform }
+  - { name: vault }
+  - { name: vim }
+  - { name: wget,
+      install_options: enable-iri }
